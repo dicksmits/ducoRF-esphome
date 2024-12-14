@@ -3,6 +3,14 @@
  * Parts of this code is based on the itho-library made by 'supersjimmie', 'Thinkpad', 'Klusjesman' and 'jodur'.
  */
 
+#ifndef LOW
+#define LOW false
+#endif
+
+#ifndef HIGH
+#define HIGH true
+#endif
+
 #ifndef __CC1101_H__
 #define __CC1101_H__
 
